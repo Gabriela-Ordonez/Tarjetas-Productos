@@ -14,9 +14,22 @@
   <body>
     <main class="container">
       <h1 id="encabezado1" class="text-center my-4">Productos</h1>
-      <div id="cards-container" class="d-flex flex-wrap justify-content-center gap-3">
-       
-      </div>
+      
+      <!-- Example split danger button -->
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning">Categorias</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" id="ulMenu">
+
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" style="cursor: pointer;" onclick="getData('');">Todas</a></li>
+        </ul>
+      </div><!-- btn-group -->
+
+      <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4" id="mainProds"></div> -->
+      <div id="cards-container" class="d-flex flex-wrap justify-content-center gap-3"></div>
     </main>
     
     <script
