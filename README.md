@@ -13,4 +13,4 @@ Los datos de los productos se obtienen de [Fake Store API](https://fakestoreapi.
 
 ## Vista previa de la página
 
-![Productos]()
+![Productos](https://raw.githubusercontent.com/Gabriela-Ordonez/Tarjetas-Productos/refs/heads/main/images/Productos.png)
