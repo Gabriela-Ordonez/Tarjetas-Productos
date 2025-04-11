@@ -1,5 +1,5 @@
 # Tarjetas-Productos
-Aplicación web que muestra productos en tarjetas usando datos de una API externa.
+Página web que muestra productos en tarjetas usando datos de una API externa.
 
 
 ## Tecnologías
@@ -10,3 +10,7 @@ Aplicación web que muestra productos en tarjetas usando datos de una API extern
 ## Enlace a la API
 
 Los datos de los productos se obtienen de [Fake Store API](https://fakestoreapi.com/products/).
+
+## Vista previa de la página
+
+![Productos]()
